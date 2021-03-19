@@ -15,7 +15,7 @@ if(runnersAge>18 && registeredEarly){
   }  else if(runnersAge<18){
     console.log(`${raceNumber} : Your race starts at 12:30 pm.`);
   }  else if(runnersAge === 18 ){
-    console.log(`${raceNumber}: You race starts at 9:30 am or 11:00 am, depends if you have registered early or late.`);
+    console.log(`${raceNumber}: Your race starts at 9:30 am or 11:00 am, depends if you have registered early or late.`);
   }
 
 
